@@ -10,18 +10,24 @@ import Section01 from "./component/Home/Section01";
 import Section02 from "./component/Home/Section02";
 import Navbar from "./component/Navbar/Navbar";
 import Tooltip from "./component/Tooltip/Tooltip";
+import Section09 from "./component/Home/Section09";
+import Footer from "./component/Footer/Footer";
 export default function Home() {
   return (
-   <div className="containerpaddin container mx-auto ">
-    <Navbar />
-    <Section01 />
-    <Section02 />
-    <Section03 />
-    <Section04 />
-    <Section05 />
-    <Section06 />
-    <Section07 />
-    <Section08 />
-   </div>
+    <div>
+      <div className="containerpaddin container mx-auto ">
+        <Navbar />
+        <Section01 />
+        <Section02 />
+        <Section03 />
+        <Section04 />
+        <Section05 />
+        <Section06 />
+        <Section07 />
+        <Section08 />
+        <Section09 />
+      </div>
+      <Footer />
+    </div>
   );
 }
