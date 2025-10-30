@@ -9,7 +9,7 @@ function Footer() {
             EVERWOOD
             </div>
         </div>
-        
+        {/* try */}
     </div>
   )
 }
